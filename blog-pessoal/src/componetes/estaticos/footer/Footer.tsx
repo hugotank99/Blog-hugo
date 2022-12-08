@@ -23,7 +23,7 @@ function Footer() {
                                 <InstagramIcon style={{ fontSize: 40, color: "white" }} />
                             </a>
                             <a href='https://twitter.com/hugoramosddk' target="_blank">
-                                <TwitterIcon style={{ fontSize: 40, color: "black" }}/>                              
+                                <TwitterIcon style={{ fontSize: 40, color: "white" }}/>                              
                             </a>
                             <a href="https://www.linkedin.com/in/hugo-ramos-84a76924a/" target="_blank">
                                 <LinkedInIcon style={{ fontSize: 40, color: "white" }} />

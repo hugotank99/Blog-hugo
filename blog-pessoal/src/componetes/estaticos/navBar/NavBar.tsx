@@ -2,6 +2,8 @@ import React from 'react';
 import { AppBar, Toolbar, Typography } from '@material-ui/core';
 import {Box} from '@mui/material';
 import AutoAwesomeSharpIcon from '@mui/icons-material/AutoAwesomeSharp';
+import { link } from 'fs';
+
 function Navbar() {
     return (
         <>
@@ -36,11 +38,13 @@ function Navbar() {
                                 Cadastrar tema
                             </Typography>
                         </Box>
+                        <link>
                         <Box mx={1} style={{ cursor: "pointer" }}>
                             <Typography variant="h6" color="inherit">
                                 Logout
                             </Typography>
                         </Box>
+                        </link>
                     </Box>
 
                 </Toolbar>
